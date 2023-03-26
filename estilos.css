@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #212121;
+    background-image: url(f.jpg);
+    color: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 75px;
+    margin-right: 1rem;
+  }
+
+  .h1{
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+    nav li a {
+        color: #ffffff;
+        text-decoration-line:none;
+        padding: 1rem;
+        transition: background-color 0.3s;
+      }
+      
+      nav li a:hover {
+        background-color: #333;
+      }
+      
+      main {
+        padding: 2rem;
+      }
+      
+      .hero {
+        background-image: url("f.jpg");
+        background-size: cover;
+        background-image: url(f.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+      }
+      
+      .hero h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+      
+      .hero button {
+        background-color: #fff;
+        color: #212121;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .hero button:hover {
+        background-color: #eee;
+      }
+      
+      .eventos {
+        margin-top: 2rem;
+      }
+      
+      .eventos h2 {
+        margin-bottom: 2rem;
+      }
+      
+      .eventos ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      
+      .eventos li {
+        background-color: #f9f9f9;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .evento {
+        padding: 1rem;
+      }
+      
+      .evento h3 {
+        margin-bottom: 1rem;
+      }
+      
+      .evento p {
+        margin-bottom: 0.5rem;
+      }
+      
+      .evento a {
+        display: block;
+        margin-top: 1rem;
+        background-image: url(f.jpg);
+        color: #fff;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+      }
+      
+      .evento a:hover {
+        background-color: #333;
+      }
+      
+      .contacto {
+        margin-top: 2rem;
+      }
+      
+      .contacto h2 {
+        margin-bottom: 2rem;
+      }
+      
+      form label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+      }
+
+      form input,
+      form textarea {
+        display: block;
+        margin-bottom: 1rem;
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+      
+      form button {
+        background-image: url(f.jpg);
+        color: #fff;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      form button:hover {
+        background-color: #333;
+      }
+      
+      footer {
+        background-image: url(f.jpg);
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
