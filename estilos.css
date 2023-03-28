@@ -8,7 +8,6 @@ body {
   
   header {
     background-color: #212121;
-    background-image: url(f.jpg);
     color: #fdfdfd;
     display: flex;
     justify-content: space-between;
@@ -51,9 +50,7 @@ body {
       }
       
       .hero {
-        background-image: url("f.jpg");
         background-size: cover;
-        background-image: url(f.jpg);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -125,7 +122,6 @@ body {
       .evento a {
         display: block;
         margin-top: 1rem;
-        background-image: url(f.jpg);
         color: #fff;
         padding: 0.5rem;
         text-align: center;
@@ -164,7 +160,6 @@ body {
       }
       
       form button {
-        background-image: url(f.jpg);
         color: #fff;
         padding: 0.5rem;
         font-size: 1.2rem;
@@ -179,7 +174,6 @@ body {
       }
       
       footer {
-        background-image: url(f.jpg);
         color: #fff;
         padding: 1rem;
         text-align: center;

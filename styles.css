@@ -12,7 +12,6 @@ body{
 }
 header {
     background-color: #212121;
-    background-image: url(f.jpg);
     color: #fdfdfd;
     display: flex;
     justify-content: space-between;
@@ -54,7 +53,7 @@ nav li a:hover {
     position: relative;
     display: flex;
     width: calc(100% - 40px);
-    height: 832px;
+    height: 695px;
     left: 20px;
     top: 20px;
     background-color: #ffffff;
@@ -62,11 +61,14 @@ nav li a:hover {
 }
 .biografia{
     width: 600px;
-    height: 400px;
+    height: 300px;
     border: 2px;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 #biografia1{
     position: absolute;
@@ -75,16 +77,60 @@ nav li a:hover {
     right: 0;
     bottom: 0;
 }
+#biografia1 h1{
+    position: absolute;
+    top: 55px;
+    left: 35%;
+}
+#biografia1 p{
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: justify;
+}
 #biografia2{
     position: absolute;
-    left: 709px;
+    left: 679px;
+}
+#biografia2 h1{
+    position: absolute;
+    top: 55px;
+    left: 45%;
+}
+#biografia2 p{
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: justify;
 }
 #biografia3{
     position: absolute;
-    top: 430px;
+    top: 340px;
+}
+#biografia3 h1{
+    position: absolute;
+    top: 55px;
+    left: 30%;
+}
+#biografia3 p{
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: justify;
 }
 #biografia4{
     position: absolute;
-    left: 709px;
-    top: 430px;
+    left: 679px;
+    top: 340px;
+}
+#biografia4 h1{
+    position: absolute;
+    top: 55px;
+    left: 28%;
+}
+#biografia4 p{
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: justify;
+}
+.fotosBio{
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
