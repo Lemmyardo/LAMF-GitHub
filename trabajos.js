@@ -16,19 +16,19 @@ dropzone.addEventListener("dragleave", e => {
 dropzone.addEventListener("drop", uploadArchivos);
 archivos.addEventListener("change", uploadArchivos);
 
-function uploadArchivos(e){
+function uploadArchivos(e) {
     e.preventDefault();
     e.stopPropagation();
     e.target.classList.remove("esActivado");
     const FD = new FormData();
     const listado_archivos = e.target.id == "archivos" ?
-        archivos.files:
+        archivos.files :
         e.dataTransfer.files;
 
-    for (let file of listado_archivos){
+    for (let file of listado_archivos) {
         FD.append("files[]", file);
     }
-    fetch("upload.php", {method: "POST", body: FD}).
+    fetch("upload.php", { method: "POST", body: FD }).
         then(rta => rta.json()). //es lo mismo JSON.parse (variable)
         catch(e => { console.error(e);});
 
