@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    margin-right: 1rem;
+}
+
+.h1 {
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration-line: none;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #333;
+}
+
+main {
+    width: 40%;
+    margin: auto;
+}
+
+#dropzone {
+    padding: 5px 45px;
+    background: #ccc;
+}
+
+#dropzone .esActivado {
+    border: 1px dashed white;
+    background-color: rgba(161, 48, 48, 0.63);
+    animation: contenidoInterno 1.2s infinite;
+    animation-timing-function: linear;
+}
+
+#dropzone p {
+    padding: 20px 10px;
+    background: white;
+    text-align: center;
+    border: 3px dashed darkgrey;
+}
+
+#dropzone label {
+    border-bottom: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+#dropzone input {
+    display: none;
+}
+
+@keyframes contenidoInterno {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
