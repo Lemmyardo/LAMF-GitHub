@@ -28,3 +28,18 @@ body {
   .h1{
     align-items: center;
   }
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+    nav li a {
+        color: #ffffff;
+        text-decoration-line:none;
+        padding: 1rem;
+        transition: background-color 0.3s;
+      }
+      
+      nav li a:hover {
+        background-color: #333;
+      }
