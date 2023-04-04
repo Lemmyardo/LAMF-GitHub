@@ -69,7 +69,7 @@ body {
         margin-bottom: 2rem;
       }
       
-      .hero button {
+      .boton {
         background-color: #fff;
         color: #212121;
         font-size: 1.2rem;
@@ -80,7 +80,7 @@ body {
         transition: background-color 0.3s;
       }
       
-      .hero button:hover {
+      .boton:hover {
         background-color: #eee;
       }
       
