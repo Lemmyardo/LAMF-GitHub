@@ -43,3 +43,7 @@ nav ul {
       nav li a:hover {
         background-color: #333;
       }
+h1{
+  padding-left: 5px;
+  font-weight: bolder;
+}
